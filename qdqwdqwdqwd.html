@@ -101,19 +101,21 @@
   <!-- 슬라이드 스크립트 -->
   <script>
     $(document).ready(function () {
-      $(".arrow1").click(function () {
+      $(".arrow2L").click(function () {
         $(".slide-track > div:last").prependTo(".slide-track");
         $(".slide-track").css("margin-left", "-1400px");
         $(".slide-track").stop().animate({ marginLeft: "0px" }, 800);
       });
 
-      $(".arrow2").click(function () {
+      $(".arrow1R").click(function () {
         $(".slide-track").stop().animate({ marginLeft: "-1400px" }, 800, function () {
           $(".slide-track > div:first").appendTo(".slide-track");
           $(".slide-track").css("margin-left", "0px");
         });
       });
     });
+
+    
   </script>
 </head>
 
@@ -131,10 +133,10 @@
           </h1>
         </div>
         <div class="arrow">
-          <div class="arrow1">
+          <div class="arrow1R">
             <img src="img/Arrow 2.png" alt="Previous">
           </div>
-          <div class="arrow2">
+          <div class="arrow2L">
             <img src="img/Arrow 1.png" alt="Next">
           </div>
         </div>
