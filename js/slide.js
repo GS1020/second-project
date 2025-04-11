@@ -69,9 +69,12 @@ $(document).ready(function () {
     };
   });
 
- 
+ $(document).ready(function(){
+  $(".toggle").click(function(){
+    $("nav ul li").slideToggle();
+  });
+ });
   
   
-
 
 
