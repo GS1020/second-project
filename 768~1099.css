@@ -36,6 +36,7 @@
     .middlebigbox{width: 100%; height: 1000px; margin: 0 auto;
         display: flex; flex-flow: wrap row; justify-content: space-around;
     transform: translateY(100px); transition: all 3s ;opacity:0;}
+    .middlebigbox > div {text-align: center;}
     .middletext{width: 1000px; text-align: center;}
     .middletext p{font-size: 24px; }
     .middletext h1{font-size: 48px; }
@@ -61,7 +62,7 @@
     .slide-track {display: flex;margin-left: 0;}
     
     .slide-track > div {width: 1400px;flex-shrink: 0;display: flex; justify-content: space-between;
-        align-items: center; color: white;}
+        align-items: center; color: white; text-align: center;}
     
     
     
@@ -72,7 +73,7 @@
     .subbox2 p{font-size: 20px; font-family: sans-serif;}
     .msbox{width: 600px;height: 522px;}
     .msbox img{object-fit: cover; width: 600px;height: 522px; }
-    .subtext{ text-align: center;}
+    
     
     /* 타임스퀘어 */
         .subbox3{display: flex; flex-flow: column wrap;  margin-left: 18%;
@@ -104,9 +105,9 @@
     #food img{width: 100%; height: 521px; object-fit: cover;}
     .foodbigbox{margin-top: 150px;}
     .foodbox{display: flex; flex-wrap: nowrap; justify-content: space-between; transition: transform 0.5s ease-in-out;
-    margin-top: 30px;}
+    margin-top: 30px; width: 150%;}
     
-    .foodbox div{flex: 0 0 32%; max-width: 32%; text-align: center; margin: 0 5px; padding: 0 8px;}
+    .foodbox div{flex: 0 0 33.33%; max-width: 33.33%; text-align: center; margin: 0 5px; padding: 0 8px;}
     
     .keens{text-align: center;  }
     .russ{ text-align: center;  }

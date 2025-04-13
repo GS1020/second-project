@@ -1,11 +1,32 @@
+
 $(document).ready(function(){
-    function slide(){
-        $(".foodbox").stop().animate({marginLeft:"-34%"},800,function(){
-            $(".foodbox div:first").appendTo(".foodbox");
-            $(".foodbox").css("margin-left",0);
-        });
+  function slide() {
+    let windowWidth = $(window).width();  // 현재 화면 너비
+
+    // 768px 이상 1099px 이하일 때
+    if (windowWidth >= 768 && windowWidth <= 1099) {
+      $(".foodbox").stop().animate({marginLeft:"-51%"}, 800, function(){
+        $(".foodbox > div:first").appendTo(".foodbox");
+        $(".foodbox").css("margin-left", 0);
+      });
+    } 
+    // 1100px 이상일 때
+    else if (windowWidth > 1099) {
+      $(".foodbox").stop().animate({marginLeft:"-34%"}, 800, function(){
+        $(".foodbox > div:first").appendTo(".foodbox");
+        $(".foodbox").css("margin-left", 0);
+      });
     }
-    setInterval(slide,3000)
+    // 768px 이하일 때
+    else {
+      $(".foodbox").stop().animate({marginLeft:"-50%"}, 800, function(){
+        $(".foodbox > div:first").appendTo(".foodbox");
+        $(".foodbox").css("margin-left", 0);
+      });
+    }
+  }
+
+  setInterval(slide, 3000);
 });
 
 
