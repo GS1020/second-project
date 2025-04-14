@@ -29,30 +29,38 @@ $(document).ready(function(){
   setInterval(slide, 3000);
 });
 
+  // $(document).ready(function(){
+  //   function slide(){
+  //     $(".foodbox").stop().animate({marginLeft:"-33.8%"},800, function(){
+  //       $(".foodbox > div:first").appendTo(".foodbox");
+  //       $(".foodbox").css("margin-left",0);
+  //     });
+  //   }
+  //   setInterval(slide,3000);
+  // });
 
+$(document).ready(function() {
 
-
-
-$(document).ready(function () {
-    // 클릭시 기본 이벤트 막기
-    $(".arrow1R a, .arrow2L a").on("click", function (e) {
-        e.preventDefault();
-    });
-  
-    $(".arrow2L").click(function () {
-      $(".slide-track > div:last").prependTo(".slide-track");
-      $(".slide-track").css("margin-left", "-1400px");
-      $(".slide-track").stop().animate({ marginLeft: "0px" }, 800);
-    });
-  
-    $(".arrow1R").click(function () {
-      $(".slide-track").stop().animate({ marginLeft: "-1400px" }, 800, function () {
+    // 오른쪽 슬라이드
+    $(".arrow2R").click(function(){
+      $(".slide-track").stop().animate({marginLeft:"-100%"}, 800, function() {
         $(".slide-track > div:first").appendTo(".slide-track");
         $(".slide-track").css("margin-left", "0px");
       });
     });
-  });
-  
+
+    // 왼쪽 슬라이드
+    $(".arrow1L").click(function(){
+      $(".slide-track").css("margin-left", "-100%");
+      $(".slide-track > div:last").prependTo(".slide-track");
+      $(".slide-track").stop().animate({marginLeft: "0px"}, 800);
+    });
+
+
+});
+
+
+
   
   $(window).scroll(function(){
     var ws=$(this).scrollTop();
