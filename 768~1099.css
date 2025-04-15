@@ -49,7 +49,7 @@
     
     /* 뉴욕 명소 소개글 */
     
-    #submiddle{margin: 0 auto; width: 100%; height:1250px; background-color: #FC8621; transform: translateY(100px); transition: all 3s; opacity: 0; }
+    #submiddle{margin: 0 auto; width: 100%; height:1350px; background-color: #FC8621; transform: translateY(100px); transition: all 3s; opacity: 0; }
     .subbox{display: flex; flex-flow: wrap row; width: 100%; justify-content: space-between; align-items: center;
          margin-bottom: 40px; color: white; padding-top: 30px; padding: 1%;}
     .arrow{margin-left: 100px; display: flex;}
@@ -71,25 +71,11 @@
     .msbox h2{font-size: 35px;}
     .msbox p{font-size: 20px; font-family: sans-serif;}
     .subbox4 {height: 900px;}
-    .subbox5 {height: 950px;}
+    .subbox5 {height: 1000px;}
    
         
 
-     /* 뉴욕 맛집 소개글 */
-    /* #food{margin: 0 auto; width: 100%; height: 900px; text-align: center; }
-    #food img{width: 100%; height: 521px; object-fit: cover;}
-    .foodbigbox{margin-top: 150px;}
-    .foodbox{display: flex; flex-wrap: nowrap; justify-content: space-between; transition: transform 0.5s ease-in-out;
-    margin-top: 30px; width: 100%;}
-    
-    .foodbox div{flex: 0 0 49%; max-width: 49%; text-align: center; padding: 1%}
-    .foodbox p{font-family: sans-serif;}
-    .keens{text-align: center;  }
-    .russ{ text-align: center;  }
-    .peter{ margin-right: 1%; text-align: center;  }
-    .levain{text-align: center; }
-    .slidewrap{ width: 100%; padding: 0 16px; overflow: hidden;
-    transform: translateY(100px); transition: all 3s; opacity: 0;} */
+
     #food{margin: 0 auto; width: 100%; height: 900px; text-align: center; }
     #food img{width: 100%; height: 521px; object-fit: cover;}
     .foodbigbox{margin-top: 150px;}

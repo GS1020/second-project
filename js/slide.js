@@ -100,10 +100,13 @@ $(document).ready(function() {
 
  $(document).ready(function(){
   $(".toggle").click(function(){
-    $("nav ul li").slideDown()
+    $("nav ul li").slideToggle()
   });
  });
   
   
-
+$(document).ready(function(){
+   let toggle= $(window).width();
+   if (toggle > 1099){}
+});
 
