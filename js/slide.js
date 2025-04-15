@@ -100,7 +100,7 @@ $(document).ready(function() {
 
  $(document).ready(function(){
   $(".toggle").click(function(){
-    $("nav ul li").slideToggle();
+    $("nav ul li").slideDown()
   });
  });
   
