@@ -19,7 +19,7 @@ $(document).ready(function(){
     }
     // 768px 이하일 때
     else {
-      $(".foodbox").stop().animate({marginLeft:"-50%"}, 800, function(){
+      $(".foodbox").stop().animate({marginLeft:"-102%"}, 800, function(){
         $(".foodbox > div:first").appendTo(".foodbox");
         $(".foodbox").css("margin-left", 0);
       });
@@ -99,14 +99,22 @@ $(document).ready(function() {
   });
 
  $(document).ready(function(){
-  $(".toggle").click(function(){
-    $("nav ul li").slideToggle()
+  $(".toggle").hover(function(){
+    $('nav ul li').stop().slideDown(200);
   });
- });
+  });
+
+ 
   
   
-$(document).ready(function(){
-   let toggle= $(window).width();
-   if (toggle > 1099){}
+ $(document).ready(function(){
+  $('.navdown').hover(
+    function() {
+      $(this).children('.dropdown').stop().slideDown();
+    },
+    function() {
+      $(this).children('.dropdown').stop().slideUp();
+    }
+  );
 });
 
