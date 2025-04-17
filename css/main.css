@@ -1,0 +1,135 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+*{font-family: 'Playfair Display', cursive;}
+#wrap{margin: 0 auto; width: 100%;}
+.container{width: 1400px; margin: 0 auto; height: auto;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+
+/* 뉴욕상단 메인 */
+header{width: 100%; height: 960px; margin: 0 auto;}
+
+.main{background-image: url(/img/뉴욕2.jpg); background-size: cover; background-position: center; }
+.headbigbox{display: flex; flex-flow: column;}
+.navbox{height: 100px; display: flex; align-items: center; margin-bottom: 100px; line-height: 10px;}
+.logo{font-size: 30px; font-weight: bold; margin-right: 20px;}
+.logo a {color: black;}
+.logo a:hover{color: white;}
+.toggle{display: none;}
+.toggle:hover{cursor: pointer;}
+
+nav ul{display: flex;}
+nav ul li{margin-top: 10px;}
+nav ul li a{color: black; margin-left: 20px; }
+nav a:hover{color: white;}
+.maintext{ font-size: 96px;  color: white; font-weight: bold;}
+
+
+
+
+
+
+/* 뉴욕 소개글 */
+#middle{margin: 0 auto; width: 100%; margin-bottom: 40px;}
+.middlebigbox{width: 1400px; height: 518px; margin: 0 auto;
+    display: flex; flex-flow: wrap row; justify-content:space-between; align-items: center;
+transform: translateY(100px); transition: all 3s ;opacity:0;}
+.middletext p{font-size: 24px; font-family: sans-serif;}
+.middletext h1{font-size: 48px;}
+.middlebox{width: 350px; height: 400px; margin-left: 12%;}
+.middlebox2{width: 350px; height: 400px; }
+.middlebox img{width: 100%; height: 400px; object-fit: cover;}
+.middlebox2 img{width: 100%; height: 400px; margin-top: 45px; object-fit: cover;}
+
+
+
+/* 뉴욕 명소 소개글 */
+
+#submiddle{margin: 0 auto; width: 100%; height: 900px; background-color: #FC8621; transform: translateY(100px); transition: all 3s; opacity: 0; }
+.subbox{display: flex; flex-flow: wrap row; width: 100%; justify-content: space-between; align-items: center;
+     margin-bottom: 40px; color: white; padding-top: 30px;}
+.subbox h2{font-size: 35px;}
+.subbox p{font-size: 20px; font-family: sans-serif;}
+.arrow{margin-left: 100px; display: flex;}
+.arrow2R{margin-left: 20px;}
+.arrow2R:hover{scale: 1.2; cursor: pointer;}
+.arrow1L:hover{scale: 1.2; cursor: pointer;}
+.subtext{padding: 3%; text-align: center;}
+.slidewrap2{width: 1400px; position: relative ; overflow: hidden; margin: 0 auto;}
+
+.slide-track {display: flex;margin-left: 0;}
+
+.slide-track > div {width: 1400px;flex-shrink: 0;display: flex; justify-content: space-between;
+    align-items: center; color: white;}
+
+  
+
+/* 미술관 */
+.subbox2{display: flex; justify-content: space-between; align-items: center;  color: white;}
+.subbox2 h2{font-size: 35px;}
+.subbox2 p{font-size: 20px; font-family: sans-serif;}
+.msbox{width: 600px;height: 522px;}
+
+.msbox img{object-fit: cover; width: 600px;height: 522px;} 
+
+/* 타임스퀘어 */
+    .subbox3{display: flex; justify-content: space-between; align-items: center;  color: white;   }
+    .subbox3 h2{font-size: 35px;}
+    .subbox3 p{font-size: 20px; font-family: sans-serif;}
+    .msbox{width: 600px;height: 522px;}
+    .msbox img{object-fit: cover; width: 600px;height: 522px;}
+
+/* 자유의 여신상 */
+    .subbox4{display: flex; justify-content: space-between; align-items: center;  color: white;  }
+    .subbox4 h2{font-size: 35px;}
+    .subbox4 p{font-size: 20px; font-family: sans-serif;}
+    .msbox{width: 600px;height: 522px;}
+    .msbox img{object-fit: cover; width: 600px;height: 522px;}
+/* 록펠러 센터 */
+    .subbox5{display: flex; justify-content: space-between; align-items: center;  color: white;   }
+    .subbox5 h2{font-size: 35px;}
+    .subbox5 p{font-size: 20px; font-family: sans-serif;}
+    .msbox{width: 600px;height: 522px;}
+    .msbox img{object-fit: cover; width: 600px;height: 522px;}  
+
+
+
+/* 뉴욕 맛집 소개글 */
+#food{margin: 0 auto; width: 100%; height: 900px; }
+#food img{width: 412px; height: 521px; object-fit: cover;}
+.foodbigbox{margin-top: 150px;}
+.foodbox{display: flex; justify-content: space-between; transition: transform 0.5s ease-in-out;
+width: 133%}
+
+.foodbox div{flex: 0 0 412px; text-align: center; margin: 0 5px;}
+.slidewrap{ width: 100%; position: relative; overflow: hidden;
+transform: translateY(100px); transition: all 3s; opacity: 0;}
+
+
+
+
+/* 블로그 */
+#blog{margin: 0 auto; width: 100%; height: 836px; transform: translateY(100px); transition: all 3s; opacity: 0;}
+#blog img{width: 306px; height: 306px; object-fit: cover; margin-bottom: 15px;}
+#blog h1{font-size: 50px;}
+#blog a{text-decoration: none; color: #FC8621;}
+#blog a:hover{background-color: #FC8621; color: white; padding: 10px; border-radius: 20px;}
+.blog2 img{border: 1px solid #333;}
+.blogbox{display: flex; justify-content: space-between; align-items: center; margin-top: 20px;}
+/* 미니바 */
+#minibar{margin: 0 auto; width: 100%; height: 142px; background-color: #FC8621; color: white;
+transform: translateY(100px); transition: all 3s; opacity: 0;}
+#minibar p{border: 2px solid white;border-radius: 40px; padding: 0 40px 0 40px;}
+#minibar p:hover{background-color: white; color: #FC8621;}
+#minibar a{color: white;}
+.minibarbox{display: flex; flex-flow: wrap row; justify-content: space-between; align-items: center;
+height: 142px; line-height: 50px;}
+/* 풋터 */
+footer{width: 100%; height: 480px; background-color: #efefef; }
+footer img{width: 30px;height: 30px; border-radius: 100%; object-fit: cover;}
+footer img:hover{scale: 1.2;}
+.footerbox{display: flex; flex-flow: wrap row; justify-content: space-between; align-content: center;
+width: 100%;height: 480px; line-height: 35px; transform: translate(100px); transition: all 3s; opacity: 0; }
+footer p{color: #777777;}
+footer li{color:#777777}
+

@@ -99,22 +99,11 @@ $(document).ready(function() {
   });
 
  $(document).ready(function(){
-  $(".toggle").hover(function(){
-    $('nav ul li').stop().slideDown(200);
-  });
+  $(".toggle").mouseover(function(){
+    $('nav ul li').stop().slideDown();
+  })
   });
 
- 
   
   
- $(document).ready(function(){
-  $('.navdown').hover(
-    function() {
-      $(this).children('.dropdown').stop().slideDown();
-    },
-    function() {
-      $(this).children('.dropdown').stop().slideUp();
-    }
-  );
-});
 
