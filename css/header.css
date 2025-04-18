@@ -1,0 +1,34 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+*{font-family: 'Playfair Display', cursive;}
+#wrap{margin: 0 auto; width: 100%;}
+.container{width: 1400px; margin: 0 auto; height: auto;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+
+/* 뉴욕상단 메인 */
+header{width: 100%; height: 960px; margin: 0 auto;}
+
+.main{background-image: url(../img/newyork2.jpg); background-size: cover; background-position: center; height: 960px;}
+.headbigbox{display: flex; flex-flow: column;}
+.navbox{height: 100px; display: flex; align-items: center; margin-bottom: 100px; line-height: 10px;}
+.logo{font-size: 30px; font-weight: bold; margin-right: 20px;}
+.logo a {color: #fff;}
+.logo a:hover{color: #333;}
+.toggle{display: none;}
+.toggle:hover{cursor: pointer;}
+
+nav ul{display: flex;}
+nav ul li{margin-top: 10px;}
+nav ul li a{color: #fff; margin-left: 20px; }
+nav a:hover{color: #333;}
+.maintext{ font-size: 96px;  color: white; font-weight: bold;}
+
+/* 풋터 */
+footer{width: 100%; height: 480px; background-color: #efefef; }
+footer img{width: 30px;height: 30px; border-radius: 100%; object-fit: cover;}
+footer img:hover{scale: 1.2;}
+.footerbox{display: flex; flex-flow: wrap row; justify-content: space-between; align-content: center;
+width: 100%;height: 480px; line-height: 35px; transform: translate(100px); transition: all 3s; opacity: 0; }
+footer p{color: #777777;}
+footer li{color:#777777}
