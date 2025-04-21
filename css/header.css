@@ -7,9 +7,9 @@ a{text-decoration: none;}
 
 
 /* 뉴욕상단 메인 */
-header{width: 100%; height: 960px; margin: 0 auto;}
+header{width: 100%; height: 850px; margin: 0 auto;}
 
-.main{background-image: url(../img/newyork2.jpg); background-size: cover; background-position: center; height: 960px;}
+.main{background-image: url(../subimg/서브메인.jpg); background-size: cover; background-position: center; height: 850px;}
 .headbigbox{display: flex; flex-flow: column;}
 .navbox{height: 100px; display: flex; align-items: center; margin-bottom: 100px; line-height: 10px;}
 .logo{font-size: 30px; font-weight: bold; margin-right: 20px;}
@@ -22,7 +22,8 @@ nav ul{display: flex;}
 nav ul li{margin-top: 10px;}
 nav ul li a{color: #fff; margin-left: 20px; }
 nav a:hover{color: #333;}
-.maintext{ font-size: 96px;  color: white; font-weight: bold;}
+.maintext{font-size: 50px;  color: white; font-weight: bold; margin-top: 0px;}
+
 
 /* 풋터 */
 footer{width: 100%; height: 480px; background-color: #efefef; }

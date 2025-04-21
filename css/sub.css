@@ -1,0 +1,63 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+*{font-family: 'Playfair Display', cursive;}
+#wrap{margin: 0 auto; width: 100%;}
+.container{width: 1400px; margin: 0 auto; height: auto;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+p{font-size:32px;color: #333; }
+h5{color: #777777; font-size: 20px; font-family: sans-serif; font-weight: 300;}
+h4{color:#333;font-size: 20px; font-family: sans-serif; font-weight: 300;}
+hr{margin: 20px 0 20px 0; border: #777777 1px solid;}
+
+span{font-weight: bold;}
+
+/* 메인슬라이더 */
+
+.mainslider{width: 1400px; height: 800px; margin: 0 auto; margin-top: 30px;}
+.slidertext{display: flex; justify-content: space-between; align-items: center; padding:10px 0 10px 0;}
+.slidertext > h1{font-size: 48px; color: #333;}
+.slidertext > p{color: #777777; font-size: 20px; font-family: sans-serif;}
+.sliderimg{width: 1400px; height: 500px; overflow: hidden;}
+.sliderbox{width: 1400px; height: 1500px; }
+.sliderimg img{width: 1400px; height: 500px; object-fit: cover;}
+
+/* 판타스틱 */
+.fantastic{width: 1400px; height: 600px; margin: 0 auto;}
+.fttext > p{margin-bottom: 30px; }
+.fttext > hr{margin: 10px 0 10px 0; border: #777777 1px solid;}
+.ftimg{width: 750px; height: 398px;}
+.ftimg img{width: 100%;height: 398px; object-fit: cover;}
+.ftflex{display: flex; justify-content: space-between; align-items: center;}
+
+/* 슬립 */
+.sleep{width: 1400px; height: 1150px; margin: 0 auto;}
+.sleeptext{text-align: center; padding: 10px;}
+.sleeptext > h1 {margin-bottom: 15px;}
+.sleepflex{display: flex; flex-flow: column wrap; align-items: center; gap: 50px;}
+.sleepimg{width: 1400px; height: 600px; display: flex; justify-content: space-evenly;}
+.sleepimg > div{width: 500px; height: 600px; }
+.sleepimg > div >img{width: 500px; height: 600px; border-radius: 62px; object-fit: cover    ;}
+.sleepimg2{margin-top: 60px;}
+
+
+/* 양키스 */
+.yankee{width: 1400px; height: 600px; margin: 0 auto;}
+.yankeeimg {width: 700px; height: 410px;}
+.yankeeimg img{width: 100%; height: 410px;}
+.yankeeflex{display: flex; flex-flow: wrap row; justify-content: space-between; align-items: center;}
+/* 메이시스 */
+.macys{width: 1400px; height: 650px;margin: 0 auto;}
+.macysimg {width: 700px; height: 500px;}
+.macysimg img{width: 700px; height: 500px; object-fit: cover;}
+.macysflex{display: flex; justify-content: space-between; align-items: center;}
+.macystext > p {margin-bottom: 30px;}
+
+/* 마무리 */
+.thanks{width: 1400px; height: 650px;  margin: 0 auto;}
+.thanksimg {width: 2500px; height: 500px; display: flex; flex-flow: wrap row;}
+.thanksimg img{width: 400px; height: 500px; margin-right: 10px; object-fit: cover;}
+.thanksflex{display: flex; align-items: center;}
+.thanksslide{width: 820px; height: 500px; overflow: hidden;}
+
+/* 인풋창 */
+.input{width: 1400px; height: 276px; background-color: #fc8621; margin: 0 auto;}
