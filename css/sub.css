@@ -8,12 +8,14 @@ p{font-size:32px;color: #333; }
 h5{color: #777777; font-size: 20px; font-family: sans-serif; font-weight: 300;}
 h4{color:#333;font-size: 20px; font-family: sans-serif; font-weight: 300;}
 hr{margin: 20px 0 20px 0; border: #777777 1px solid;}
+h6{color: #fff; font-family: sans-serif; font-weight: 300;  }
 
 span{font-weight: bold;}
 
 /* 메인슬라이더 */
 
-.mainslider{width: 1400px; height: 800px; margin: 0 auto; margin-top: 30px;}
+.mainslider{width: 1400px; height: 800px; margin: 0 auto; margin-top: 30px;
+transform: translateY(100px); transition: all 3s; opacity: 0;}
 .slidertext{display: flex; justify-content: space-between; align-items: center; padding:10px 0 10px 0;}
 .slidertext > h1{font-size: 48px; color: #333;}
 .slidertext > p{color: #777777; font-size: 20px; font-family: sans-serif;}
@@ -22,7 +24,7 @@ span{font-weight: bold;}
 .sliderimg img{width: 1400px; height: 500px; object-fit: cover;}
 
 /* 판타스틱 */
-.fantastic{width: 1400px; height: 600px; margin: 0 auto;}
+.fantastic{width: 1400px; height: 600px; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
 .fttext > p{margin-bottom: 30px; }
 .fttext > hr{margin: 10px 0 10px 0; border: #777777 1px solid;}
 .ftimg{width: 750px; height: 398px;}
@@ -30,7 +32,7 @@ span{font-weight: bold;}
 .ftflex{display: flex; justify-content: space-between; align-items: center;}
 
 /* 슬립 */
-.sleep{width: 1400px; height: 1150px; margin: 0 auto;}
+.sleep{width: 1400px; height: 1150px; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
 .sleeptext{text-align: center; padding: 10px;}
 .sleeptext > h1 {margin-bottom: 15px;}
 .sleepflex{display: flex; flex-flow: column wrap; align-items: center; gap: 50px;}
@@ -41,23 +43,40 @@ span{font-weight: bold;}
 
 
 /* 양키스 */
-.yankee{width: 1400px; height: 600px; margin: 0 auto;}
+.yankee{width: 1400px; height: 600px; margin: 0 auto; transform: translateY(100px); transition:all 3s; opacity: 0;}
 .yankeeimg {width: 700px; height: 410px;}
 .yankeeimg img{width: 100%; height: 410px;}
 .yankeeflex{display: flex; flex-flow: wrap row; justify-content: space-between; align-items: center;}
 /* 메이시스 */
-.macys{width: 1400px; height: 650px;margin: 0 auto;}
+.macys{width: 1400px; height: 650px;margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
 .macysimg {width: 700px; height: 500px;}
 .macysimg img{width: 700px; height: 500px; object-fit: cover;}
 .macysflex{display: flex; justify-content: space-between; align-items: center;}
 .macystext > p {margin-bottom: 30px;}
 
+
+
 /* 마무리 */
-.thanks{width: 1400px; height: 650px;  margin: 0 auto;}
-.thanksimg {width: 2500px; height: 500px; display: flex; flex-flow: wrap row;}
+.thanks{width: 1400px; height: 650px;  margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
+.thanksimg {width: 2500px; height: 500px; display: flex; flex-flow: wrap row; position: relative;}
+.thanksimg > div{position: absolute;}
+.thanksimg > div:not(:first-child){display: none;}
 .thanksimg img{width: 400px; height: 500px; margin-right: 10px; object-fit: cover;}
 .thanksflex{display: flex; align-items: center;}
-.thanksslide{width: 820px; height: 500px; overflow: hidden;}
+.thanksslide{width: 820px; height: 500px;}
+
+
 
 /* 인풋창 */
-.input{width: 1400px; height: 276px; background-color: #fc8621; margin: 0 auto;}
+.input{width: 1400px; height: 276px; background-color: #fc8621; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
+textarea{width: 300px; height: 150px; margin-top: 5px; resize: none;}
+.form > button{width: 80px; height: 30px; background-color: #333; border: none; border-radius: 30px; color: #fff; float: right;}
+.form >button:hover{background-color: #fff; color: #333; cursor: pointer; transform: scale(1.2);}
+.form{margin-top: 40px; }
+.inputflex {display: flex; justify-content: space-evenly; }
+.inputimg{width: 200px; height: 40px; display: flex; justify-content: space-around; align-items: center;}
+.inputimg img{width: 50px; height: 50px; object-fit: cover;}
+.inputimgflex{display: flex;}
+.inputsubflex{display: flex; flex-flow: column wrap; justify-content: center;}
+.inputsubflex > h1{margin:0 0 30px 8px;}
+select > option{font-family: sans-serif;}

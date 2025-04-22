@@ -45,9 +45,25 @@
                 </div>
 
                 <div class="container">
-                    <div class="maintext">
-                        <h1>About <br> NewYork</h1>
+                    <div class="textflex">
+                        <div class="maintext">
+                            <h1>About <br> NewYork</h1>
+                        </div>
+                        <div class="videoflex">
+                        <div>
+                        <button onclick="video1()"><img src="subimg/재생아이콘.png" alt="play"></button>
+                        </div>
+                        <div id="youtube">
+                            <iframe width="900" height="500"
+                                src="https://www.youtube.com/embed/HCvqJBW5an8?autoplay=1&amp;mute1"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        
                     </div>
+                </div>
                 </div>
             </div>
         </header>
@@ -122,7 +138,7 @@
                     </div>
                     <div class="sleepimg">
                         <div class="sleepimg1">
-                            <img src="subimg/브로드웨이.jpg" alt="Broadway1">
+                            <img src="subimg/브로드웨이2.jpg" alt="Broadway1">
                         </div>
                         <div class="sleepimg2">
                             <img src="subimg/브로드웨이야경.jpg" alt="Broadway2">
@@ -224,20 +240,65 @@
         <!-- 인풋창 -->
 
         <div class="input">
+            <div class="container">
+                <div class="inputflex">
+                    <div class="inputsubflex">
+                        <h1 style="color: #fff;">NewYork</h1>
+                        <div class="inputimgflex">
+                            <div class="inputimg">
+                                <img src="subimg/미국국기.jpg" alt="america">
+                                <h6>America <br>
+                                    "The country of this city"
+                                </h6>
+                            </div>
 
+                            <div class="inputimg">
+                                <img src="subimg/위치아이콘.png" alt="place">
+                                <h6>Place <br>
+                                    "Location of New York"
+                                </h6>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form">
+                        <select name="language" id="language" style="font-family: sans-serif;">
+                            <option disabled selected value="select">select language</option>
+                            <option value="korea">대한민국</option>
+                            <option value="English">English</option>
+                            <option value="japan">Japan</option>
+                            <option value="china">China</option>
+                        </select>
+
+                        <input type="text" name="email" id="email" placeholder="Enter your email address"
+                            style="font-family: sans-serif;"> <br>
+
+                        <textarea style="font-family: sans-serif;" id="message"
+                            placeholder="Feel free to leave us a message"></textarea> <br>
+
+                        <button style="font-family: sans-serif;" class="inputbtn" onclick="clear1()">Sand</button>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
 
+
+
+        <!-- 풋터 -->
         <footer>
             <div class="container">
                 <div class="footerbox">
                     <div>
-                        <h4>About Passport</h4>
+                        <h3>About Passport</h3>
                         <br>
-                        <p>Far far away, behind the word mountains, far from the <br>
+                        <p style="font-size: 16px;">Far far away, behind the word mountains, far from the <br>
                             countries Vokalia and Consonantia, there live the blind texts.</p>
                         <br>
 
-                        <h4>Connect</h4>
+                        <h3>Connect</h3>
                         <br>
                         <a href="#"><img src="img/인스타로고.jpg" alt="instar"></a>
                         <a href="#"><img src="img/트위터아이콘2.png" alt="twiter"></a>
@@ -247,7 +308,7 @@
                     </div>
 
                     <div>
-                        <h4>Links</h4>
+                        <h3>Links</h3>
                         <br>
                         <ul>
                             <li>About us</li>
@@ -259,7 +320,7 @@
                     </div>
 
                     <div>
-                        <h4>Company</h4>
+                        <h3>Company</h3>
                         <br>
                         <ul>
                             <li>About us</li>
@@ -271,7 +332,7 @@
                     </div>
 
                     <div>
-                        <h4>Contact</h4>
+                        <h3>Contact</h3>
                         <br>
                         <ul>
                             <li>43 Raymouth Rd. Baltemoer, London 3910</li>
