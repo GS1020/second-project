@@ -104,7 +104,7 @@ $(document).ready(function() {
   })
   });
 
-  alert('연결성공');
+
   
   
 
