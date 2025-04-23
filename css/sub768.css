@@ -1,0 +1,131 @@
+@media (max-width:767px){
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    *{font-family: 'Playfair Display', cursive;}
+    #wrap{margin: 0 auto; width: 100%;}
+    .container{width: 100%; margin: 0 auto; height: auto; padding: 1%;}
+    ul,li{list-style: none;}
+    a{text-decoration: none;}
+    p{font-size:32px;color: #333; }
+    h5{color: #777777; font-size: 20px; font-family: sans-serif; font-weight: 300;}
+    h4{color:#333;font-size: 20px; font-family: sans-serif; font-weight: 300;}
+    hr{margin: 20px 0 20px 0; border: #777777 1px solid;}
+    h6{color: #fff; font-family: sans-serif; font-weight: 300;  }
+    
+    span{font-weight: bold;}
+    
+    /* 뉴욕상단 메인 */
+    header{width: 100%; height: 850px; margin: 0 auto;}
+    
+    .main{background-image: url(../subimg/서브메인.jpg); background-size: cover; background-position: center; height: 850px;}
+    .main:hover{opacity: 0.9;}
+    .headbigbox{display: flex; flex-flow: column;}
+    .navbox{height: 150px; display: flex; justify-content: space-between;  align-items: center; margin-bottom: 30px; line-height: 10px; }
+    .logo{font-size: 30px; font-weight: bold; margin-right: 20px;}
+    .logo a {color: #fff;}
+    .logo a:hover{color: #333;}
+    .toggle{display: block; position: relative; }
+    .toggle img{width: 40px; margin-top: 10px;}
+    .toggle:hover{cursor: pointer;}
+    nav{display: flex; flex-flow:wrap column; align-items: flex-end;}
+    nav ul{display: flex; flex-flow: column; text-align: right; display: none; position: absolute; top: 100px;}
+    
+    nav ul li a{color: #fff; margin-left: 20px; }
+    nav a:hover{color: #333;}
+    .maintext{font-size: 35px;  color: white; font-weight: bold; margin-top: 0px; text-align: center;}
+    .textflex{display: flex; flex-flow: column; align-items: center;}
+    #youtube{opacity: 0; width: 100%;}
+    button{border-radius: 20px; cursor: pointer; border-radius: 100%;}
+    button img{width: 50px;}
+    button:hover{scale: 1.1;}
+    .videoflex{ display: flex; align-items: center; justify-content: space-between;}
+    
+    /* 메인슬라이더 */
+    
+    .mainslider{width: 100%; height: 800px; margin: 0 auto; margin-top: 30px; text-align: center;
+    transform: translateY(100px); transition: all 3s; opacity: 0;}
+    .slidertext{width: 100%; display: flex; justify-content: space-between; align-items: center; padding:10px 0 10px 0;}
+    .slidertext > h1{font-size: 48px; color: #333;}
+    .slidertext > p{color: #777777; font-size: 20px; font-family: sans-serif;}
+    .sliderimg{width: 100%; height: 500px; overflow: hidden;}
+    .sliderbox{width: 100%; height: 1500px; }
+    .sliderimg img{width: 100%; height: 500px; object-fit: cover;}
+    
+    /* 판타스틱 */
+    .fantastic{width: 100%; height: 850px; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;
+    text-align: center;}
+    .fttext{padding: 1%; margin-bottom: 15px;}
+    .fttext > p{margin-bottom: 30px; }
+    .fttext > hr{margin: 10px 0 10px 0; border: #777777 1px solid;}
+    .ftimg{width: 750px; height: 398px;}
+    .ftimg img{width: 100%;height: 398px; object-fit: cover;}
+    .ftflex{display: flex; flex-flow: column;}
+    
+    /* 슬립 */
+    .sleep{width: 100%; height: 1250px; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
+    .sleeptext{text-align: center; padding: 10px;}
+    .sleeptext > h1 {margin-bottom: 15px;}
+    .sleepflex{display: flex; flex-flow: column wrap; align-items: center; gap: 50px;}
+    .sleepimg{width: 100%; height: 600px; display: flex; justify-content: space-evenly;}
+    .sleepimg > div{width: 100%; height: 600px; }
+    .sleepimg > div >img{width: 98%; height: 400px; border-radius: 62px; object-fit: cover    ;}
+    .sleepimg2{margin-top: 60px;}
+   
+    
+    
+    /* 양키스 */
+    .yankee{width: 100%; height: 900px; margin: 0 auto; transform: translateY(100px); transition:all 3s; opacity: 0;
+    ;}
+    .yankeetext{width: 100%; text-align: center}
+    .yankeeimg {width: 100%; height: 410px;}
+    .yankeeimg img{width: 100%; height: 410px;}
+    .yankeeflex{display: flex; flex-flow: wrap row; justify-content: space-between; align-items: center;}
+    
+    
+    /* 메이시스 */
+    .macys{width: 100%; height: 650px;margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
+    .macysimg {width: 100%; height: 500px;}
+    .macysimg img{width: 100%; height: 500px; object-fit: cover;}
+    .macysflex{display: flex; justify-content: space-between; align-items: center;}
+    .macystext{width: 100%; padding: 1%; text-align: center;}
+    .macystext > p {margin-bottom: 30px;}
+    
+    
+    
+    /* 마무리 */
+    .thanks{width: 100%; height: 750px;  margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;
+    text-align: center;}
+    .thankstext{padding: 1%;}
+    .thanksimg {width: 100%; height: 500px; display: flex; flex-flow: wrap row; position: relative;}
+    .thanksimg > div{position: absolute;  width: 100%;}
+    .thanksimg > div:not(:first-child){display: none;}
+    .thanksimg img{width: 48%; height: 500px; margin-right: 10px; object-fit: cover;}
+    .thanksflex{display: flex; flex-flow: column-reverse;}
+    .thanksslide{width: 820px; height: 500px;}
+    
+    
+    
+    /* 인풋창 */
+    .input{width: 100%; height: 276px; background-color: #fc8621; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
+    textarea{width: 332px; height: 150px; margin-top: 5px; resize: none; outline: none;}
+    .form > button{width: 80px; height: 30px; background-color: #333; border: none; border-radius: 30px; color: #fff; float: right;}
+    .form >button:hover{background-color: #fff; color: #333; cursor: pointer; transform: scale(1.2);}
+    .form{margin-top: 40px; }
+    .inputflex {display: flex; justify-content: space-evenly; }
+    .inputimg{width: 200px; height: 40px; display: flex; justify-content: space-around; align-items: center;}
+    .inputimg img{width: 50px; height: 50px; object-fit: cover;}
+    .inputimgflex{display: flex;}
+    .inputsubflex{display: flex; flex-flow: column wrap; justify-content: center;}
+    .inputsubflex > h1{margin:0 0 30px 8px;}
+    select > option{font-family: sans-serif;}
+    .input input{padding-left: 20px;outline: none;}
+    /* .input input::placeholder{color: blue;} */
+    
+    /* 풋터 */
+    footer{width: 100%; height: 480px; background-color: #efefef; }
+    footer img{width: 30px;height: 30px; border-radius: 100%; object-fit: cover;}
+    footer img:hover{scale: 1.2;}
+    .footerbox{display: flex; flex-flow: wrap row; justify-content: space-between; align-content: center;
+    width: 100%;height: 480px; line-height: 35px; transform: translateY(100px); transition: all 3s; opacity: 0; }
+    footer p{color: #777777;}
+    footer li{color:#777777}
+}

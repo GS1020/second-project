@@ -36,7 +36,7 @@ transform: translateY(100px); transition: all 3s; opacity: 0;}
 .sleeptext{text-align: center; padding: 10px;}
 .sleeptext > h1 {margin-bottom: 15px;}
 .sleepflex{display: flex; flex-flow: column wrap; align-items: center; gap: 50px;}
-.sleepimg{width: 1400px; height: 600px; display: flex; justify-content: space-evenly;}
+.sleepimg{width: 1400px; height: 900px; display: flex; justify-content: space-evenly;}
 .sleepimg > div{width: 500px; height: 600px; }
 .sleepimg > div >img{width: 500px; height: 600px; border-radius: 62px; object-fit: cover    ;}
 .sleepimg2{margin-top: 60px;}
@@ -58,18 +58,18 @@ transform: translateY(100px); transition: all 3s; opacity: 0;}
 
 /* 마무리 */
 .thanks{width: 1400px; height: 650px;  margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
-.thanksimg {width: 2500px; height: 500px; display: flex; flex-flow: wrap row; position: relative;}
-.thanksimg > div{position: absolute;}
+.thanksimg {width: 1400px; height: 500px; display: flex; flex-flow: wrap row; position: relative;}
+.thanksimg > div{position: absolute; }
 .thanksimg > div:not(:first-child){display: none;}
-.thanksimg img{width: 400px; height: 500px; margin-right: 10px; object-fit: cover;}
+.thanksimg img{width: 400px; height: 500px; margin-right: 10px; object-fit: cover; }
 .thanksflex{display: flex; align-items: center;}
-.thanksslide{width: 820px; height: 500px;}
+.thanksslide{width: 820px; height: 500px; }
 
 
 
 /* 인풋창 */
-.input{width: 1400px; height: 276px; background-color: #fc8621; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
-textarea{width: 300px; height: 150px; margin-top: 5px; resize: none;}
+.input{width: 100%; height: 276px; background-color: #fc8621; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
+textarea{width: 332px; height: 150px; margin-top: 5px; resize: none; outline: none;}
 .form > button{width: 80px; height: 30px; background-color: #333; border: none; border-radius: 30px; color: #fff; float: right;}
 .form >button:hover{background-color: #fff; color: #333; cursor: pointer; transform: scale(1.2);}
 .form{margin-top: 40px; }
@@ -80,3 +80,5 @@ textarea{width: 300px; height: 150px; margin-top: 5px; resize: none;}
 .inputsubflex{display: flex; flex-flow: column wrap; justify-content: center;}
 .inputsubflex > h1{margin:0 0 30px 8px;}
 select > option{font-family: sans-serif;}
+.input input{padding-left: 20px;outline: none;}
+/* .input input::placeholder{color: blue;} */

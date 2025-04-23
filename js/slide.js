@@ -98,11 +98,20 @@ $(document).ready(function() {
     };
   });
 
- $(document).ready(function(){
-  $(".toggle").mouseover(function(){
-    $('nav ul li').stop().slideDown();
-  })
+  $(document).ready(function(){
+    $('.toggle').click(function(){
+      $('nav ul li').slideToggle();
+    });
   });
+
+  $(window).resize(function(){
+    if ($(window).width()>1099){
+      $('nav ul li').removeAttr('style');
+    }
+  });
+
+  
+
 
 
   

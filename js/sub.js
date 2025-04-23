@@ -91,5 +91,23 @@ $(window).scroll(function(){
     }
 
     function video1(){
-      document.getElementById('youtube').style.opacity='1'
+      const youtube = document.getElementById('youtube');
+      if (youtube.style.opacity==='1'){
+        youtube.style.opacity=0
+      }else{
+        youtube.style.opacity='1'
+      }
     }
+
+
+    $(document).ready(function(){
+      $('.toggle').click(function(){
+        $('nav ul').slideToggle();
+      });
+    });
+
+    $(window).resize(function(){
+      if ($(window).width()>1099){
+        $('nav ul').removeAttr('style');
+      }
+    });
