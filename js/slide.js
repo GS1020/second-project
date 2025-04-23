@@ -94,7 +94,7 @@ $(document).ready(function() {
 
     var footer=$(".footerbox").offset().top;
     if(ws>footer -700){
-      $(".footerbox").css("transform","translateX(0px)").css("opacity","1");
+      $(".footerbox").css("transform","translateY(0px)").css("opacity","1");
     };
   });
 

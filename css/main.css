@@ -129,7 +129,7 @@ footer{width: 100%; height: 480px; background-color: #efefef; }
 footer img{width: 30px;height: 30px; border-radius: 100%; object-fit: cover;}
 footer img:hover{scale: 1.2;}
 .footerbox{display: flex; flex-flow: wrap row; justify-content: space-between; align-content: center;
-width: 100%;height: 480px; line-height: 35px; transform: translate(100px); transition: all 3s; opacity: 0; }
+width: 100%;height: 480px; line-height: 35px; transform: translateY(100px); transition: all 3s; opacity: 0; }
 footer p{color: #777777;}
 footer li{color:#777777}
 
