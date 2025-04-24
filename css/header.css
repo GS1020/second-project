@@ -9,18 +9,18 @@ a{text-decoration: none;}
 /* 뉴욕상단 메인 */
 header{width: 100%; height: 980px; margin: 0 auto;}
 
-.main{background-image: url(../subimg/서브메인.jpg); background-size: cover; background-position: center; height: 980px;}
-.main:hover{opacity: 0.9;}
-.headbigbox{display: flex; flex-flow: column;}
+.main{background-image: url(../subimg/서브메인.jpg); background-size: cover; background-position: center; height: 980px; }
+
+.headbigbox{display: flex; flex-flow: column; }
 .navbox{height: 100px; display: flex; align-items: center; margin-bottom: 100px; line-height: 10px;}
 .logo{font-size: 30px; font-weight: bold; margin-right: 20px;}
 .logo a {color: #fff;}
 .logo a:hover{color: #333;}
 .toggle{display: none;}
-.toggle:hover{cursor: pointer;}
+.toggle:hover{cursor: pointer; scale: 1.1;}
 nav ul{display: flex;}
-nav ul li{margin-top: 10px;}
-nav ul li a{color: #fff; margin-left: 20px; }
+nav ul li {margin-top: 10px;}
+nav ul li a{color: #fff; margin-left: 20px; font-size: 20px;  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);}
 nav a:hover{color: #333;}
 .maintext{font-size: 50px;  color: white; font-weight: bold; margin-top: 0px;}
 #youtube{opacity: 0;}
