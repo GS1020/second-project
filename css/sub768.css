@@ -2,7 +2,7 @@
     *{margin: 0; padding: 0; box-sizing: border-box;}
     *{font-family: 'Playfair Display', cursive;}
     #wrap{margin: 0 auto; width: 100%;}
-    .container{width: 100%; margin: 0 auto; height: auto; padding: 1%;}
+    .container{width: 100%; margin: 0 auto; height: auto; }
     ul,li{list-style: none;}
     a{text-decoration: none;}
     p{font-size:28px;color: #333; }
@@ -14,7 +14,7 @@
     span{font-weight: bold;}
     
     /* 뉴욕상단 메인 */
-    header{width: 100%; height: 850px; margin: 0 auto;}
+    header{width: 100%; height: 850px; margin: 0 auto; padding: 1%;}
     
     .main{background-image: url(../subimg/서브메인.jpg); background-size: cover; background-position: center; height: 850px; }
    
@@ -41,7 +41,7 @@
     
     /* 메인슬라이더 */
     
-    .mainslider{width: 100%; height: 800px; margin: 0 auto; margin-top: 30px; text-align: center;
+    .mainslider{width: 100%; height: 800px; margin: 0 auto; margin-top: 30px; text-align: center; padding: 1%;
     transform: translateY(100px); transition: all 3s; opacity: 0;}
     .slidertext{width: 100%; display: flex; justify-content: space-between; align-items: center; padding:10px 0 10px 0;}
     .slidertext > h1{font-size: 48px; color: #333;}
@@ -52,7 +52,7 @@
     
     /* 판타스틱 */
     .fantastic{width: 100%; height: 850px; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;
-    text-align: center;}
+    text-align: center; padding: 1%;}
     .fttext{padding: 1%; margin-bottom: 15px;}
     .fttext > p{margin-bottom: 30px; }
     .fttext > hr{margin: 10px 0 10px 0; border: #777777 1px solid;}
@@ -61,7 +61,7 @@
     .ftflex{display: flex; flex-flow: column;}
     
     /* 슬립 */
-    .sleep{width: 100%; height: 1480px; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
+    .sleep{width: 100%; height: 1480px; margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0; padding: 1%;}
     .sleeptext{text-align: center; padding: 10px;}
     .sleeptext > h1 {margin-bottom: 15px;}
     .sleepflex{display: flex; flex-flow: column wrap; align-items: center; gap: 50px;}
@@ -74,7 +74,7 @@
     
     /* 양키스 */
     .yankee{width: 100%; height: 1000px; margin: 0 auto; transform: translateY(100px); transition:all 3s; opacity: 0;
-    ;}
+        padding: 1%;}
     .yankeetext{width: 100%; text-align: center}
     .yankeeimg {width: 100%; height: 410px;}
     .yankeeimg img{width: 100%; height: 410px;}
@@ -82,7 +82,8 @@
     
     
     /* 메이시스 */
-    .macys{width: 100%; height: 900px;margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;}
+    .macys{width: 100%; height: 900px;margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;
+        padding: 1%;}
     .macysimg {width: 100%; height: 500px;}
     .macysimg img{width: 100%; height: 500px; object-fit: cover;}
     .macysflex{display: flex; flex-flow: column; justify-content: space-between; align-items: center;}
@@ -92,7 +93,7 @@
     
     
     /* 마무리 */
-    .thanks{width: 100%; height: 550px;  margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0;
+    .thanks{width: 100%; height: 550px;  margin: 0 auto; transform: translateY(100px); transition: all 3s; opacity: 0; padding: 1%;
     text-align: center;}
     .thankstext{padding: 1%;}
     .thanksimg {width: 100%; height: 500px; display: flex; flex-flow: wrap row; position: relative;}
@@ -111,7 +112,7 @@
     .form > button{width: 80px; height: 30px; background-color: #4A90E2; border: none; border-radius: 30px; color: #fff; }
     .form > button:hover{background-color: #357ABD; color: #fff; scale: 1.0;}
     .form{ display: flex; flex-flow: column nowrap; justify-content:space-evenly; align-items: center; padding: 1%;
-        width: 50%; height: 230px; background-color: #fff; border-radius: 30px; box-shadow: 2px 2px 2px; }
+        width: 50%; height: 230px; background-color: #fff; border-radius: 15px;  }
     .inputflex {display: flex;  justify-content: space-evenly; }
     .inputimg{width: 200px; height: 40px; display: flex; justify-content: space-around; align-items: center;}
     .inputimg img{width: 50px; height: 50px; object-fit: cover;}
@@ -131,12 +132,13 @@
     
     
     /* 풋터 */
-    footer{width: 100%; height: 530px; background-color: #efefef; }
+    footer{width: 100%;  background-color: #efefef;  padding: 1%;}
     footer img{width: 30px;height: 30px; border-radius: 100%; object-fit: cover;}
     footer img:hover{scale: 1.2;}
-    .footerbox{display: flex; flex-flow: wrap row; justify-content: space-between; align-content: center;
-    width: 100%;height: 530px; line-height: 35px; transform: translateY(100px); transition: all 3s; opacity: 0; }
+    .footerbox{display: flex; flex-flow: wrap row; justify-content: space-between; align-content: center; 
+    width: 100%;line-height: 35px; transform: translateY(100px); transition: all 3s; opacity: 0; }
     footer p{color: #777777;}
     footer li{color:#777777}
+    
     
 }

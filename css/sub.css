@@ -74,7 +74,7 @@ textarea{padding: 15px; width: 100%; height: 150px; margin-top: 5px; resize: non
 .form > button{width: 80px; height: 30px; background-color: #4A90E2; border: none; border-radius: 30px; color: #fff; }
 .form > button:hover{background-color: #357ABD; color: #fff; scale: 1.0;}
 .form{ display: flex; flex-flow: column nowrap; justify-content:space-evenly; align-items: flex-end; padding: 1%;
-    width: 450px; height: 230px; background-color: #fff; border-radius: 30px; box-shadow: 2px 2px 2px; margin-top: 20px;}
+    width: 450px; height: 230px; background-color: #fff; border-radius: 15px;  margin-top: 20px;}
 .inputflex {display: flex; justify-content: space-evenly; }
 .inputimg{width: 200px; height: 40px; display: flex; justify-content: space-around; align-items: center;}
 .inputimg img{width: 50px; height: 50px; object-fit: cover;}

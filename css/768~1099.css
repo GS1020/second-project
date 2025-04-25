@@ -46,7 +46,7 @@ nav ul li a{color: #fff; margin-left: 20px;  line-height: 16px; font-size: 20px;
     
     /* 뉴욕 명소 소개글 */
     
-    #submiddle{margin: 0 auto; width: 100%; height:1350px; background-color: #FC8621; transform: translateY(100px); transition: all 3s; opacity: 0; }
+    #submiddle{margin: 0 auto; width: 100%; height:auto; background-color: #FC8621; transform: translateY(100px); transition: all 3s; opacity: 0; }
     .subbox{display: flex; flex-flow: wrap row; width: 100%; justify-content: space-between; align-items: center;
          margin-bottom: 40px; color: white; padding-top: 30px; padding: 1%;}
     .arrow{margin-left: 100px; display: flex;}
@@ -54,13 +54,13 @@ nav ul li a{color: #fff; margin-left: 20px;  line-height: 16px; font-size: 20px;
     .arrow2R:hover{scale: 1.2; cursor: pointer;}
     .arrow1L:hover{scale: 1.2; cursor: pointer;}
 
-    .subtext{width: 80%;}
+    .subtext{width: 100%;}
     
     .slidewrap2{width: 100%; position: relative ; overflow: hidden; margin: 0 auto;}
     
     .slide-track {width: 400%; display: flex;margin-left: 0;}
     
-    .slide-track > div {width: 25%;flex-shrink: 0;display: flex;flex-flow: column wrap;  
+    .slide-track > div {width: 25%;flex-shrink: 0;display: flex;flex-flow: column wrap;  justify-content: flex-start;
         align-items: center; color: white; text-align: center;}
     
     .msbox{width: 100%;;height: 522px;}
@@ -112,7 +112,7 @@ nav ul li a{color: #fff; margin-left: 20px;  line-height: 16px; font-size: 20px;
 
 
     /* 풋터 */
-    footer{width: 100%; height: 480px; background-color: #efefef; }
+    footer{width: 100%; height: 480px; background-color: #efefef;  padding: 1%;}
     footer img{width: 30px;height: 30px; border-radius: 100%; object-fit: cover;}
     footer img:hover{scale: 1.2;}
     .footerbox{display: flex; flex-flow: wrap row; justify-content: space-between; align-content: center;
