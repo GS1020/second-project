@@ -122,11 +122,14 @@ height: 142px; line-height: 50px; text-align: center;}
 
 
 /* 풋터 */
-footer{width: 100%; height: 530px; background-color: #efefef; padding: 1%;}
+footer{width: 100%; height: auto;  background-color: #efefef;  padding: 1%;}
 footer img{width: 30px;height: 30px; border-radius: 100%; object-fit: cover;}
 footer img:hover{scale: 1.2;}
-.footerbox{display: flex; flex-flow: wrap row; justify-content: space-between; align-content: center;
-width: 100%;height: 530px; line-height: 35px; transform: translateY(100px); transition: all 3s; opacity: 0; }
+.footerbox{height: auto; display: flex; flex-flow: column; justify-content: space-between; align-content: center; 
+width: 100%;line-height: 35px; transform: translateY(100px); transition: all 3s; opacity: 0; }
+.footerbox1{display: flex; flex-flow: wrap;}
+.footerbox1 > p{margin-bottom: 20px; width: 100%;}
+.footerbox > div {margin-bottom: 10px;}
 footer p{color: #777777;}
 footer li{color:#777777}
 
