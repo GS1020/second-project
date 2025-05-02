@@ -17,13 +17,21 @@ $(document).ready(function(){
         $(".foodbox").css("margin-left", 0);
       });
     }
+    // else if(windowWidth >1100){
+    //   $(".foodbox").stop().animate({marginLeft:"-25%"},800,function(){
+    //     $(".foodbox > div:first").appendTo(".foodbox");
+    //     $(".foodbox").css("margin-left",0);
+    //   });
+    // }
     // 768px 이하일 때
     else {
       $(".foodbox").stop().animate({marginLeft:"-102%"}, 800, function(){
         $(".foodbox > div:first").appendTo(".foodbox");
         $(".foodbox").css("margin-left", 0);
       });
+      
     }
+   
   }
 
   setInterval(slide, 3000);
